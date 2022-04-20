@@ -1,0 +1,158 @@
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
+        "hidden": false
+    },
+    "profile": {
+        "name": "杨植栋",
+        "email": "iyangzhidong@gmail.com",
+        "mobile": "18551472830",
+        "github": "https://github.com/TimorYang",
+        "positionTitle": "iOS 开发工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2021.03.01",
+                "2023.07.01"
+            ],
+            "school": "武汉科技大学",
+            "major": "计算机科学与技术",
+            "academic_degree": "本科"
+        },
+        {
+            "edu_time": [
+                "2013.09.01",
+                "2016.06.30"
+            ],
+            "school": " 无锡科技职业学院",
+            "major": "软件技术",
+            "academic_degree": "大专"
+        }
+    ],
+    "awardList": [],
+    "workExpList": [
+        {
+            "company_name": "车巴达（苏州）网络科技有限公司",
+            "department_name": "研发部",
+            "work_time": [
+                "2021.03",
+                "2022.04"
+            ],
+            "work_desc": "业务上负责汽车票等业务模块迭代开发，小组内调研新技术并给出实践结果供领导决策，基于开发过程的痛点，提出并实施解决方案，提升组内开发效率。",
+            "dataIndex": 0
+        },
+        {
+            "company_name": "苏州阅历数据科技有限公司",
+            "department_name": " 技术部",
+            "work_time": [
+                "2020.09",
+                "2021.03"
+            ],
+            "work_desc": "负责阅家校学生端和教师端业务模块的迭代开发和缺陷修复，维护 Jenkins 中 iOS 相关的 job 。",
+            "dataIndex": 1
+        },
+        {
+            "company_name": "苏州比可网络科技有限公司",
+            "department_name": "研发部",
+            "work_time": [
+                "2019.10",
+                "2020.06"
+            ],
+            "work_desc": "项目中负责技术方案选型，关键方案的决策，功能业务迭代。部门内参加产品功能研讨会并提出个人的想法和建议，小组内负责 CI/CD 的搭建并维护，优化整个部门的研发流程。",
+            "dataIndex": 2
+        },
+        {
+            "work_time": [
+                "2018.07",
+                "2019.10"
+            ],
+            "company_name": "苏州梅氏健康产业管理公司",
+            "department_name": "IT部",
+            "work_desc": "独立开发憨妈妈C端，B端。",
+            "dataIndex": 3
+        },
+        {
+            "work_time": [
+                "2016.06",
+                "2018.07"
+            ],
+            "company_name": "上海博为峰软件技术股份有限公司",
+            "department_name": "",
+            "work_desc": "完成组长下发的学习任务，阅读公司内部组件源码，独立自主完成组内分配的任务。",
+            "dataIndex": 4
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "Objective-C",
+            "skill_desc": "",
+            "skill_level": 80,
+            "dataIndex": 0
+        },
+        {
+            "skill_name": "Swift",
+            "skill_desc": "",
+            "skill_level": 20,
+            "dataIndex": 1
+        },
+        {
+            "skill_name": "Autolayout",
+            "skill_level": 60,
+            "skill_desc": ""
+        },
+        {
+            "skill_name": "热修复",
+            "skill_level": 100,
+            "skill_desc": ""
+        },
+        {
+            "skill_name": "组件化",
+            "skill_level": 60,
+            "skill_desc": ""
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "巴士管家",
+            "project_role": "iOS 开发工程师",
+            "project_time": "2021.03 - 2022.04",
+            "project_desc": "巴士管家是一款聚焦于交通出行服务的APP。目前巴士管家已覆盖全国长途汽车票、火车票、机票、打车、公交地铁、机场专线、城际快线、酒店、包车、校园巴士等交通出行场景。",
+            "project_content": "业务迭代和维护，基础设施方案调研和开发。\n1. 汽车票，火车票等相关业务迭代。\n2. 热修复方案调研和开发。\n3. 组件化方案调研和开发。\n4. 组件化后二进制方案调研和实施。\n5. bugly数据监控，通过企业微信机器人自动通知组内成员。",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "诚遇",
+            "project_role": "iOS 开发工程师",
+            "project_time": "2019.10 - 2020.06",
+            "project_desc": "城遇是一款年轻人喜爱的真实男女在线聊天交友软件，致力于打造“陌生人即时互动交友”社区，多种聊天方式任你选择，只为邂逅有趣的灵魂。",
+            "project_content": "负责技术选型，团队沟通，任务分配，攻克技术难点，高质量完成产品提出的需求。\n1. 使用 Socket 技术实现直播间广播，红包，PK等低延时的同步策略。\n2. 使用多线程技术维护 Socket 以及动态圈的图片、小视频上传。\n3. 利用开源项目 mars 和 CocoaLumberjack 搭建日志监控系统，监控线上直播卡顿。\n4. 自研 Crash 监控。\n5. 持续化集成，利用Jenkins + fastlane，将重复的劳动交给机器, 提高开发效率。",
+            "dataIndex": 1
+        },
+        {
+            "project_name": "憨妈妈",
+            "project_role": " iOS 开发工程师",
+            "project_time": "2018.07 - 2019.10",
+            "project_desc": "憨妈妈，妈妈们备孕、怀孕、育儿的贴心助手。",
+            "project_content": "独立开发憨妈妈 iOS App。\n1. 使用队列和重试机制保证IAP支付流程的可靠性。\n2. 采用了离散型的网络设计方案对 AFN 进行二次封装。\n3. 利用 xcconfig 做环境配置分离",
+            "dataIndex": 2
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "自驱型软件开发工程师，喜欢一切极客的东西。五年左右的 iOS 开发经验，喜欢将简单重复的工作自动化，遇到问题时，善于思考，能够从多个角度提出自己的猜想和思路，爱钻研，爱折腾。在过去的一年中，在组内提出了：热修复，组件化等基础设施的开发建议，并和组内同事共同完成了相关方案的实施和落地。"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
